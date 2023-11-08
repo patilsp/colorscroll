@@ -60,11 +60,12 @@ export default {
 
 <style scoped>
 .toggle-container {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 10px 10px 0 0;
-  cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .theme-btn:hover {
@@ -82,7 +83,7 @@ export default {
 .theme-btn {
   display: flex;
   justify-content: center;
-  padding: 0.5rem 1rem;
+  padding: 2px 6px;
   align-items: center;
   border-radius: 7px;
 }

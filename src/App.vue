@@ -13,7 +13,7 @@ export default {
     }
 
     return {
-      thumbColor: '#6BAF8D',
+      thumbColor: '#FE5F85',
       trackColor: '#232E33',
       width: 10,
       scrollbarBorderRadius: 10,
@@ -140,8 +140,9 @@ body::-webkit-scrollbar-thumb {
 </script>
 
 <template>
-  <header>
+  <header class="flex-between">
     <div class="header-left">
+      <img class="logo" src="./assets/logo.png" alt="logo" />
       <h1 class="title">Color Scrollbar</h1>
     </div>
     <div class="header-right">
@@ -272,9 +273,9 @@ body::-webkit-scrollbar-thumb {
       />
     </div>
     <div class="codeOutputContainer">
-    <div class="flex">
+    <div class="flex-between">
       <h2 :class="theme">Code</h2>
-        <button @click="copyCSSCode" class="btn">
+        <button @click="copyCSSCode" class="btn flex-between">
         <span v-if="!isCSSTextCopied">Copy code</span
         ><span v-if="isCSSTextCopied">Copied!</span>
       </button>
@@ -322,11 +323,12 @@ body::-webkit-scrollbar-thumb {
 </template>
 
 <style scoped>
+
 .mainContainer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-column-gap: 20px;
-  width: 75%;
+  width: 85%;
   margin: 1rem auto;
 }
 .colorBox {
@@ -376,8 +378,10 @@ body::-webkit-scrollbar-thumb {
 header {
   display: flex;
   flex-direction: row;
-  margin: 3rem auto;
+  margin-bottom: 3rem;
   width: fit-content;
+  background-color: #0c8e94;
+  padding:1rem;
 }
 
 h2 {
@@ -397,15 +401,36 @@ h3.light {
 .codeOutput {
   margin-top: 1rem;
 }
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} 
+.header-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn {
   display: block;
-  border: none;
-  outline: none;
-  background-image: linear-gradient(90deg, #6baf8d, #6b8d8d, #6baf8d);
+  background-image: linear-gradient(91deg, #FE924A 0%, #EC099A 50%, #FE924A);
+  background-position: 200% 0%;
+  background-size: 200% 100%;
+  box-shadow: 0px 24px 30px #a7265d36;
+  border: 2px solid #FE5F85;
   border-radius: 10px;
   cursor: pointer;
-  width: 170px;
   margin: 10px;
+  max-width: 180px;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -424,7 +449,8 @@ h3.light {
   width: 50px;
 }
 .title {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  font-size: 20px;
 }
 
 .githubBtnContainer {
@@ -495,4 +521,6 @@ h3.light {
     grid-template-rows: auto;
   }
 }
+
+
 </style>
