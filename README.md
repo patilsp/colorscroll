@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://www.scrollbar.app"><img src="src/assets/logo.png" alt="Scrollbar.app" width="140"></a>
+  <a href="https://www.scrollbar.app"><img src="src/assets/logo.png" alt="custom scrollbar" width="140"></a>
   <br>
-  Scrollbar.app
+  colorscroll
   <br>
 </h1>
 <h4 align="center">Simple online tool for designing scrollbars.</h4>
