@@ -1,21 +1,39 @@
-# Vue 3 + Vite
+<h1 align="center">
+  <br>
+  <a href="https://www.scrollbar.app"><img src="src/assets/logo.png" alt="Scrollbar.app" width="140"></a>
+  <br>
+  Scrollbar.app
+  <br>
+</h1>
+<h4 align="center">Simple online tool for designing scrollbars.</h4>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+</p>
+   
+<p align="center">
+ <img alt="Netlify status" src="https://api.netlify.com/api/v1/badges/f9fb51ca-ecbe-4c00-adae-4ed64922e234/deploy-status" >
+  <img alt="GitHub language" src="https://img.shields.io/github/languages/top/henripar/scrollbar">
+ <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/henripar/scrollbar">
+   <img alt="GitHub" src="https://img.shields.io/github/license/henripar/scrollbar">
+</p>
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## About
 
-## Deploy Your Own
+Scrollbar.app is a simple web app which helps developers to design and implement custom scrollbars.
 
-Deploy your own Vite project with Vercel.
+## Project Setup
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite)
+```sh
+npm install
+```
 
-_Live Example: https://vite-vue-template.vercel.app_
+### Compile and Hot-Reload for Development
 
-### Deploying From Your Terminal
+```sh
+npm run dev
+```
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+### Compile and Minify for Production
 
-```shell
-$ vercel
+```sh
+npm run build
 ```
