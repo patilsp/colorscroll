@@ -18,7 +18,7 @@
 
 ## About
 
-colorscroll is a simple web app which helps developers to design and implement custom scrollbars.
+colorscroll app is a simple web app which helps developers to design and implement custom scrollbars.
 
 ## Project Setup
 
