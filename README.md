@@ -1,8 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="https://www.scrollbar.app"><img src="src/assets/logo.png" alt="Scrollbar.app" width="140"></a>
+  ![image](https://github.com/user-attachments/assets/f2f9841b-feea-42fc-b66c-56a0f2101e6c)
+
   <br>
-  Scrollbar.app
+  colorscroll
   <br>
 </h1>
 <h4 align="center">Simple online tool for designing scrollbars.</h4>
@@ -18,7 +19,7 @@
 
 ## About
 
-Scrollbar.app is a simple web app which helps developers to design and implement custom scrollbars.
+colorscroll app is a simple web app which helps developers to design and implement custom scrollbars.
 
 ## Project Setup
 
