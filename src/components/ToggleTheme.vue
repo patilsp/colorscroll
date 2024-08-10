@@ -66,6 +66,7 @@ export default {
     padding: 5px;
     cursor: pointer;
     border-radius: 10px;
+    color: #fff;
 }
 
 .theme-btn:hover {

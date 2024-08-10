@@ -328,7 +328,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-column-gap: 20px;
-  width: 85%;
+  width: 90%;
   margin: 1rem auto;
 }
 .colorBox {
@@ -381,7 +381,7 @@ header {
   margin-bottom: 3rem;
   width: fit-content;
   background-color: #0c8e94;
-  padding:1rem;
+  padding: 5px;
 }
 
 h2 {
@@ -451,6 +451,7 @@ h3.light {
 .title {
   margin-left: 0.5rem;
   font-size: 20px;
+  color: #fff;
 }
 
 .githubBtnContainer {
