@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-  <a href="https://www.scrollbar.app"><img src="src/assets/logo.png" alt="custom scrollbar" width="140"></a>
+  ![image](https://github.com/user-attachments/assets/f2f9841b-feea-42fc-b66c-56a0f2101e6c)
+
   <br>
   colorscroll
   <br>
